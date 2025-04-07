@@ -37,7 +37,6 @@ This is a clone of Momentum Chrome extension. It has nice design and useful func
 
 ## Folder Structure
 
-    ```bash
     momentum-clone/
     ├── css/
     │   └── style.css
@@ -55,7 +54,6 @@ This is a clone of Momentum Chrome extension. It has nice design and useful func
     ├── index.html
     ├── package.json
     └── server.js
-    ```
 
 ## Security
 
