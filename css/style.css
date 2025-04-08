@@ -19,7 +19,7 @@
 }
 
 #clock {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 3rem auto;
   padding: 1rem 1rem;
@@ -69,7 +69,8 @@
   font-size: 1rem;
   width: 90%;
   transition: all 0.3s ease;
-  color: #333;
+  color: #7d7b7b;
+  text-align: center;
 }
 
 #login-form input:focus {
@@ -99,12 +100,13 @@
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
 }
+
 #greeting {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   width: 100%;
-  max-width: 300px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -132,7 +134,8 @@
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.9);
   font-size: 0.8rem;
-  color: #333;
+  color: #7d7b7b;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
