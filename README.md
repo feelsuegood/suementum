@@ -36,7 +36,7 @@ If you want to hide your API key using a proxy server (Please check server branc
 1. Clone this repository
 2. Install packages:
    ```bash
-   npm install express dotenv
+   npm install
    ```
 3. Create `.env` file in the root directory:
    ```
