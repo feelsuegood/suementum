@@ -1,4 +1,4 @@
-# Suementum - Momentum Clone
+# Momentum Clone - Personal Project
 
 A beautiful Momentum clone with modern glass-morphism design. Features include clock, weather, to-do list, and daily quotes.
 
