@@ -129,7 +129,7 @@ body {
   margin: 0 auto;
   margin-bottom: 10rem;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
@@ -148,7 +148,7 @@ body {
   border: none;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.2);
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #ffffff;
   text-align: center;
   transition: all 0.3s ease;
@@ -207,14 +207,13 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
   padding: 0.8rem;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   gap: 0rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-bottom: auto;
   box-sizing: border-box;
@@ -228,7 +227,6 @@ body {
 #quote {
   position: fixed;
   bottom: 0;
-
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   padding: 0.5rem;
