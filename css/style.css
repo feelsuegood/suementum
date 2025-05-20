@@ -129,7 +129,7 @@ body {
   margin: 0 auto;
   margin-bottom: 10rem;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
@@ -147,16 +147,16 @@ body {
   padding: 1rem;
   border: none;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.2);
-  font-size: 1.3rem;
+  background: transparent;
+  font-size: 1.5rem;
+  text-decoration: underline;
   color: #ffffff;
   text-align: center;
   transition: all 0.3s ease;
 }
 #todo-form input:focus {
   outline: none;
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  transform: scale(1.2);
 }
 
 #todo-form input::placeholder {
@@ -171,7 +171,7 @@ body {
 #todo-list li {
   width: 100%;
   box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(134, 134, 134, 0.3);
   padding: 0.5rem 1.5rem;
   border-radius: 15px;
   display: flex;
@@ -182,12 +182,13 @@ body {
 }
 
 #todo-list li:hover {
-  background: rgba(149, 149, 149, 0.2);
-  transform: translateX(5px);
+  background: rgba(134, 134, 134, 0.5);
+  transform: translateX(5px) scale(1.05);
 }
 
 #todo-list span {
   font-size: 1rem;
+  color: rgb(255, 255, 255);
 }
 
 #todo-list button {
